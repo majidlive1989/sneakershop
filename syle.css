@@ -62,8 +62,11 @@ background-attachment: fixed;
     gap:10%;
     position: relative;
     right: 5%;
+    
   
 }
 .featured img{
     width: 235px;
+    transform: scale(0,.5);
+    transition: transform 250ms ease-in-out;
 }
